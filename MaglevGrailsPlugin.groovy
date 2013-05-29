@@ -142,7 +142,7 @@ Runs Magnolia CMS as a plugin in Grails
             }
             controllerClass.metaClass.getComponents = {
                 if (MgnlContext.isWebContext())
-                    RenderContext.get().contextObjects.get("cms.components")
+                    RenderContext.get().contextObjects.get("components")
             }
         }
     }

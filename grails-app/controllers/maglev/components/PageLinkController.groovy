@@ -6,7 +6,7 @@ import info.magnolia.module.blossom.dialog.TabBuilder
 import info.magnolia.module.blossom.annotation.Template
 import info.magnolia.module.blossom.annotation.TemplateDescription
 
-@Template(id = "grailsModule:cms.components/pageLink", title = "Page link")
+@Template(id = "grailsModule:components/pageLink", title = "Page link")
 @TemplateDescription("Simple link to a page")
 public class PageLinkController{
 

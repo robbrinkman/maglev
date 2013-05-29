@@ -6,7 +6,7 @@ import info.magnolia.module.blossom.annotation.Template
 import info.magnolia.module.blossom.annotation.TemplateDescription
 import info.magnolia.module.blossom.dialog.TabBuilder
 
-@Template(id = "grailsModule:cms.components/persons", title = "Persons")
+@Template(id = "grailsModule:components/persons", title = "Persons")
 @TemplateDescription("List of persons")
 public class PersonsController {
 

@@ -5,8 +5,8 @@ import info.magnolia.module.blossom.dialog.TabBuilder
 import info.magnolia.module.blossom.annotation.TabFactory
 import info.magnolia.module.blossom.annotation.TemplateDescription
 
-@Template(id = "grailsModule:cms.components/someContent", title = "Some content")
-@TemplateDescription("Most basic of cms.components. Just text")
+@Template(id = "grailsModule:components/someContent", title = "Some content")
+@TemplateDescription("Most basic of components. Just text")
 class SomeContentController {
 
     def index() {

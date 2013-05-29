@@ -6,7 +6,7 @@ import info.magnolia.module.blossom.annotation.Template
 import info.magnolia.module.blossom.annotation.TemplateDescription
 import info.magnolia.module.blossom.annotation.Inherits
 
-@Template(id = "grailsModule:cms.components/text", title = "Text")
+@Template(id = "grailsModule:components/text", title = "Text")
 @TemplateDescription("Simple textblock with header")
 public class TextController{
 
