@@ -18,3 +18,6 @@ stacktrace.log
 maglev-grailsPlugins.iml
 maglev.iml
 web-app/WEB-INF/tld/
+web-app/repositories/
+web-app/logs/
+web-app/WEB-INF/lib/

@@ -73,6 +73,17 @@ grails.project.dependency.resolution = {
         runtime('info.magnolia:magnolia-module-blossom:2.0.1') {
             exclude group: 'commons-logging', name: 'commons-logging'
         }
+
+        runtime('info.magnolia:magnolia-module-dms:1.6.5') {
+            exclude group: 'commons-logging', name: 'commons-logging'
+        }
+
+        runtime('net.sourceforge.openutils:openutils-mgnlmedia:5.0.2') {
+            exclude group: 'commons-logging', name: 'commons-logging'
+            exclude group: 'nl.ikarus.nxt.priv.imageio.icoreader', name: 'ICOReader'
+            exclude group: 'org.freehep', name: 'freehep-io'
+            exclude group: 'org.slf4j', name: 'slf4j-log4j12'
+        }
     }
 
     plugins {
