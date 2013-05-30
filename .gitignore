@@ -15,9 +15,10 @@ stacktrace.log
 /web-app/WEB-INF/classes
 /.link_to_grails_plugins/
 /target-eclipse/
-maglev-grailsPlugins.iml
-maglev.iml
+*.iml
 web-app/WEB-INF/tld/
 web-app/repositories/
 web-app/logs/
 web-app/WEB-INF/lib/
+.classpath
+.project
